@@ -1,10 +1,10 @@
 [project]
-site_name = "Blank's Consumer Guide"
-site_description = "Blank's Consumer Guide"
+site_name = "Blank's Life"
+site_description = "Blank's Life"
 site_author = "Blank"
-site_url = "https://cyhkbl.github.io/Consumer-Guide/"
+site_url = "https://cyhkbl.github.io/Life/"
 copyright = "&copy; Blank"
-repo_url = "https://github.com/cyhkbl/Consumer-Guide"
+repo_url = "https://github.com/cyhkbl/Life"
 nav = [
     {"医疗健康" = [
         { "冲牙器" = "医疗健康/冲牙器.md" },

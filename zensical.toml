@@ -1,0 +1,86 @@
+[project]
+site_name = "Blank's Consumer Guide"
+site_description = "Blank's Consumer Guide"
+site_author = "Blank"
+site_url = "https://cyhkbl.github.io/Consumer-Guide/"
+copyright = "&copy; Blank"
+repo_url = "https://github.com/cyhkbl/Consumer-Guide"
+nav = [
+    {"医疗健康" = [
+        { "冲牙器" = "医疗健康/冲牙器.md" },
+        { "医疗器材" = "医疗健康/医疗器材.md" },
+        { "口腔护理" = "医疗健康/口腔护理.md" },
+        { "牙膏" = "医疗健康/牙膏.md" },
+        { "电动牙刷" = "医疗健康/电动牙刷.md" },
+        { "疫苗" = "医疗健康/疫苗.md" },
+        { "药品" = "医疗健康/药品.md" }
+    ]},
+    {"消费电子" = [
+        { "HiFi" = "消费电子/HiFi.md" },
+        { "台式机" = "消费电子/台式机.md" },
+        { "手机" = "消费电子/手机.md" }
+    ]},
+    {"生存" = [
+        { "战时生存" = "生存/战时生存.md" },
+        { "汽车事故" = "生存/汽车事故.md" }
+    ]},
+    {"生活" = [
+        { "洗衣" = "生活/洗衣.md" },
+        { "牛奶" = "生活/牛奶.md" },
+        { "牛肉" = "生活/牛肉.md" },
+        { "衣物" = "生活/衣物.md" },
+        { "鞋" = "生活/鞋.md" }
+    ]}
+]
+
+[project.theme]
+language = "zh"
+favicon = "avatar_without_background.png"
+logo = "avatar_without_background.png"
+features = [
+    "announce.dismiss",
+    "content.action.edit",
+    "content.action.view",
+    "content.code.annotate",
+    "content.code.copy",
+    "content.code.select",
+    "content.footnote.tooltips",
+    "content.tabs.link",
+    "content.tooltips",
+    "header.autohide",
+    "navigation.expand",
+    "navigation.footer",
+    "navigation.indexes",
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "navigation.instant.progress",
+    "navigation.path",
+    "navigation.prune",
+    "navigation.sections",
+    "navigation.tabs",
+    "navigation.top",
+    "navigation.tracking",
+    "search.highlight",
+    "search.suggest",
+    "toc.follow"
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+palette.primary = "pink"
+palette.accent = "pink"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+palette.primary = "purple"
+palette.accent = "purple"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.theme.font]
+text = "Noto Serif SC"
+code = "Jetbrains Mono"

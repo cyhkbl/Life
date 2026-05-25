@@ -2,7 +2,7 @@
 site_name = "Blank's Life"
 site_description = "Blank's Life"
 site_author = "Blank"
-site_url = "https://cyhkbl.github.io/Life/"
+site_url = "https://cyhkbl.qzz.io/Life/"
 copyright = "&copy; Blank"
 repo_url = "https://github.com/cyhkbl/Life"
 nav = [
@@ -92,3 +92,4 @@ toggle.name = "Switch to light mode"
 [project.theme.font]
 text = "Noto Serif SC"
 code = "Jetbrains Mono"
+base_url = "/Life/"
